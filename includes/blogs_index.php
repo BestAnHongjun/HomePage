@@ -10,6 +10,7 @@
             echo '
             <li class="post-list-item">
                 <span class="post-date">'.$blog["date"]["year"].'/'.$blog["date"]["month"].'/'.$blog["date"]["day"].'</span>
+                <span class="post-date">'.$blog["categories"][0].'</span>
                 <a class="post-link" href="/blogs.php?url='.$blog["url"].'">'.$blog["title"][0].'</a>
             </li>
             ';

@@ -12,6 +12,7 @@
   </div>
   <div class="post-content" style="float: left; margin-right: 20px;">
     <h2>最新博客</h2>
+    <a class="project-extra-link" href="/blogs.php">查看全部博客>></a>
     <ul class="post-list">
     <?php
         $blogs = get_blogs();
@@ -31,6 +32,7 @@
   </div>
   <div class="post-content" style="float: left; margin-right: 20px;">
     <h2>最新工程</h2>
+    <a class="project-extra-link" href="/projects.php">查看全部工程>></a>
     <ul class="post-list">
     <?php
         $projects = get_projects();
