@@ -39,5 +39,5 @@
 </div> -->
 
 <div class="sidebar-item sidebar-footer">
-	<p>Powered by <a href="https://www.php.net/">PHP8</a>, all source code of this personal page can be cound at <a href="">GitHub</a>.</p>
+	<p>Powered by <a href="https://www.php.net/">PHP8</a>, all source code of this personal page can be cound at <a href="https://github.com/BestAnHongjun/HomePage">GitHub</a>.</p>
 </div>
