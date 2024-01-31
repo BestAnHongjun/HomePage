@@ -7,8 +7,13 @@
     
         $__include = "includes/blogs.php";
         $__blog = get_markdown($_GET["url"], true);
-        $__content = $Parsedown->text($__blog["content"]);
-        
+        if (isset($__blog["external"][0])) {
+            $__content = file_get_contents(urldecode("https://".trim($__blog["external"][0])));
+            $__content = $Parsedown->text($__content);
+        }
+        else {
+            $__content = $Parsedown->text($__blog["content"]);
+        }
         include 'layouts/default.php';
     }
     else {
