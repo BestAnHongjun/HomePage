@@ -23,6 +23,9 @@
             if (isset($project["aistudio"][0])) {
               echo '<a class="project-extra-link" href="https://'.$project["aistudio"][0].'">[AI-Studio]</a>';
             }
+            if (isset($project["github"][0])) {
+              echo '<a class="project-extra-link" href="https://'.$project["github"][0].'">[GitHub]</a>';
+            }
             if (isset($project["gitee"][0])) {
               echo '<a class="project-extra-link" href="https://'.$project["gitee"][0].'">[Gitee]</a>';
             }
