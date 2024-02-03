@@ -13,11 +13,7 @@ gitee: gitee.com/an_hongjun/InternLM-History
 
 中学历史学科作为培养学生综合素质和历史意识的重要学科，对于学生的发展具有深远的影响。为了提升中学生对历史学科的学习效果，开发基于InternLM大模型的中学历史学习助手。
 
-> 国内Gitee仓库地址：https://gitee.com/an_hongjun/InternLM-History \
-> GitHub仓库地址：https://github.com/BestAnHongjun/InternLM-History
-
-[[OpenXLab]](https://openxlab.org.cn/apps/detail/Coder-AN/InternLM-History)  [[ModelScope]](https://www.modelscope.cn/models/CoderAN/InternHistory/summary) [[BiliBili]](https://www.bilibili.com/video/BV11t421H7yQ/?vd_source=8d5b18c3e81d76ac1d81cb328e0d506b)
-
+[[GitHub]](https://github.com/BestAnHongjun/InternLM-History) [[Gitee]](https://gitee.com/an_hongjun/InternLM-History) [[OpenXLab]](https://openxlab.org.cn/apps/detail/Coder-AN/InternLM-History)  [[ModelScope]](https://www.modelscope.cn/models/CoderAN/InternHistory/summary) 
 
 演示视频：[[Bilibili]](https://www.bilibili.com/video/BV11t421H7yQ/)
 
@@ -28,9 +24,3 @@ gitee: gitee.com/an_hongjun/InternLM-History
 <script type="text/javascript">
 document.getElementById("test").style.height=document.getElementById("test").scrollWidth / 16 * 9 +"px";
 </script>
-
-#### DEMO图片：
-
-![](/public/img/project_internlm_history_demo.jpg)
-
-
