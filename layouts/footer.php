@@ -1,5 +1,5 @@
 <hr>
-<span id="busuanzi_container_site_pv"><small>您是第<span id="busuanzi_value_site_pv"></span>位访客!</small></span><br>
+<span id="busuanzi_container_site_pv"><small>您是第<span id="busuanzi_value_site_uv"></span>位访客！本页访问量<span id="busuanzi_value_page_pv"></span>次，本站访问量<span id="busuanzi_value_site_pv"></span>次。</small></span><br>
 <span><small>友情链接：<br>
     ※&nbsp;博士导师：
     <a href="https://iopen.nwpu.edu.cn/">西北工业大学-光电与智能研究院(iOPEN)</a> | 
