@@ -6,6 +6,10 @@
     <link href="/public/css/style.css" rel="stylesheet">
     <link href="/public/css/syntax/monokai.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/vs2015.min.css">
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+    <script src="/public/js/jquery.min.js"></script>
+
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script>
     var _hmt = _hmt || [];
@@ -16,6 +20,5 @@
     s.parentNode.insertBefore(hm, s);
     })();
     </script>
-
 
 </head>
