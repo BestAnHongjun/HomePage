@@ -15,6 +15,9 @@
 		<a class="nav-item" href="/blogs.php">博客</a>
 	  </li>
 	  <li>
+	    <a class="nav-item" href="/papers.php">科研</a>
+	  </li>
+	  <li>
 		<a class="nav-item" href="/projects.php">工程</a>
 	  </li>
 	  <li>

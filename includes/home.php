@@ -4,12 +4,14 @@
   </header>
     
   <?php include 'includes/introduction.php'; ?>
-
+  
   <br>
-  <div style="clear: both"></div>
-  <div class="post-content">
-    <a class="project-extra-link" href="/about.php">查看个人简介>></a>
+  <div class="post-content" style="clear: both">
+    <?php echo $__content; ?>
   </div>
+
+  <br><hr>
+  <div style="clear: both"></div>
   <div class="post-content" style="float: left; margin-right: 20px;">
     <h2>最新博客</h2>
     <a class="project-extra-link" href="/blogs.php">查看全部博客>></a>
@@ -24,6 +26,26 @@
             <li class="post-list-item">
                 <span class="post-date">'.$blog["date"]["year"].'/'.$blog["date"]["month"].'/'.$blog["date"]["day"].'</span>
                 <a class="post-link" href="/blogs.php?url='.$blog["url"].'">'.$blog["title"][0].'</a>
+            </li>
+            ';
+        }
+    ?>
+    </ul>
+  </div>
+  <div class="post-content" style="float: left; margin-right: 20px;">
+    <h2>最新科研</h2>
+    <a class="project-extra-link" href="/blogs.php">查看全部科研>></a>
+    <ul class="post-list">
+    <?php
+        $papers = get_papers();
+        $cnt_papers = count($papers);
+        for ($i = 0; $i < $cnt_papers && $i < 5; $i++)
+        {
+            $paper = $papers[$i];
+            echo '
+            <li class="post-list-item">
+                <span class="post-date">'.$paper["date"]["year"].'/'.$paper["date"]["month"].'/'.$paper["date"]["day"].'</span>
+                <a class="post-link" href="/papers.php?url='.$paper["url"].'">'.$paper["title"][0].'</a>
             </li>
             ';
         }

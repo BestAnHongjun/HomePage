@@ -13,6 +13,38 @@
         return $blogs;
     }
     
+    function get_blog_by_id($id) {
+        $blogs = get_blogs();
+        foreach ($blogs as $blog) {
+            if (isset($blog["id"]) && (int)$blog["id"][0] == $id)
+                return $blog["url"];
+        }
+        return NULL;
+    }
+    
+    function get_papers($use_content=false) {
+        $dir = 'pages/papers';
+        $papers = array();
+        foreach (new DirectoryIterator($dir) as $file) {
+            if ($file->isDot()) continue;
+            $url = urlencode('pages/papers/' . $file);
+            $paper = get_markdown($url, $use_content);
+            $paper["url"] = $url;
+            array_push($papers, $paper);
+        }
+        array_multisort(array_column($papers, 'time'), SORT_DESC, $papers);
+        return $papers;
+    }
+    
+    function get_paper_by_id($id) {
+        $papers = get_papers();
+        foreach ($papers as $paper) {
+            if (isset($paper["id"]) && (int)$blog["id"][0] == $id)
+                return $paper["url"];
+        }
+        return NULL;
+    }
+    
     function get_projects($use_content=false) {
         $dir = 'pages/projects';
         $projects = array();
