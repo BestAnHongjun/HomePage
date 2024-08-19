@@ -9,10 +9,7 @@
 	<ul class="nav">
       <li class="nav-title">导航</li>
 	  <li>
-	  	<a class="nav-item" href="/">主页</a>
-	  </li>
-	  <li>
-		<a class="nav-item" href="/blogs.php">博客</a>
+	  	<a class="nav-item" href="/">个人</a>
 	  </li>
 	  <li>
 	    <a class="nav-item" href="/papers.php">科研</a>
@@ -21,8 +18,13 @@
 		<a class="nav-item" href="/projects.php">工程</a>
 	  </li>
 	  <li>
+		<a class="nav-item" href="/blogs.php">博客</a>
+	  </li>
+	  <!--
+	  <li>
 		<a class="nav-item" href="/about.php">个人</a>
 	  </li>
+	  -->
 	</ul>
 </div>
 

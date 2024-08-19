@@ -9,7 +9,7 @@
   <div class="post-content" style="clear: both">
     <?php echo $__content; ?>
   </div>
-
+<!--
   <br><hr>
   <div style="clear: both"></div>
   <div class="post-content" style="float: left; margin-right: 20px;">
@@ -72,6 +72,7 @@
     ?>
     </ul>
   </div>
+  -->
   <div style="clear:both"></div>
   <?php include 'layouts/footer.php'; ?>
 </article>
